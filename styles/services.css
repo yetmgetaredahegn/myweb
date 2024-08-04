@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+}
+.whole{
+    position: relative;
+}
+.upper{
+    display: grid;
+    grid-template-columns: 340px 1fr;
+}
+
+.yet{
+    display: inline-block;
+    font-size: 25px;
+    font-family: Beau Rivage;
+    color: white;
+    margin-left: 19px;
+ 
+}
+
+#port{
+    color: brown;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 62%;
+}
+
+.home-button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2em;
+    transition: color 1s;
+
+}
+
+.home-button:hover{
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    cursor: pointer;
+
+}
+.services-button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2em;
+    margin-left: 22px;
+    margin-right: 22px;
+    transition: color 1s;
+
+}
+
+.services-button:hover{
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    cursor: pointer;
+
+}
+
+.about-button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2em;
+    transition: color 1s;
+}
+
+.about-button:hover{
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.description{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 100px;
+
+}
+
+.des{
+    color: white;
+    font-size: 22px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.f-box{
+    display: flex;
+    justify-content: center;
+}
+.front{
+    margin-top: 7%;
+    margin-left: 2%;
+    width: 80px;
+    height: 80px;
+}
+
+.f-box p{
+    margin-top: 7.7%;
+    margin-left: 12px;
+    font-size: 44px;
+    color: rgb(255, 196, 0);
+}
+
+.b-box{
+    display: flex;
+    justify-content: center;
+}
+.back{
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 80px;
+    height: 80px;
+}
+
+.b-box p{
+    margin-top: 10.7%;
+    margin-left: 12px;
+    font-size: 44px;
+    color: rgb(255, 196, 0);
+}
+
+
+.s-box{
+    display: flex;
+    justify-content: center;
+}
+.stack{
+    margin-top: 8%;
+    margin-left: 2%;
+    width: 80px;
+    height: 80px;
+}
+
+.s-box p{
+    margin-top: 8.7%;
+    margin-left: 12px;
+    font-size: 44px;
+    color: rgb(255, 196, 0);
+}
+
+
+.ftxt{
+    padding-top: 17px;
+    text-align: center;
+    color: white;
+}
+footer{
+    margin-top: 70px;
+    height: 66px;
+    width: 100%;
+    background-color: black;
+
+}

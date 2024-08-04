@@ -1,0 +1,188 @@
+body{
+    background-color: black;
+}
+
+.whole{
+    position: relative;
+}
+.upper{
+    display: grid;
+    grid-template-columns: 340px 1fr;
+}
+
+.yet{
+    display: inline-block;
+    font-size: 25px;
+    font-family: Beau Rivage;
+    color: white;
+    margin-left: 19px;
+ 
+}
+
+#port{
+    color: brown;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 62%;
+}
+
+.home-button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2em;
+    transition: color 1s;
+
+}
+
+.home-button:hover{
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+.services-button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2em;
+    margin-left: 22px;
+    margin-right: 22px;
+    transition: color 1s;
+
+}
+
+.services-button:hover{
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+
+}
+
+.about-button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2em;
+    transition: color 1s;
+}
+
+.about-button:hover{
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.define{
+    margin-left: 30%;
+    width: 30%;
+    padding-top: 87px;
+
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 550px; 
+    border-style: solid;
+    border-color: rgb(215, 208, 208);
+    border-width: 1px;
+    padding-bottom: 8px;
+}
+
+.mypic {
+    margin-top: 9px;
+    margin-left: 6px;
+    height: 68px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: rgb(215, 208, 208);
+    border-width: 1px;
+    vertical-align: center;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.3);
+  
+}
+
+.txt{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 3px 4px black;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.spname{
+color: rgb(255, 153, 0)
+}
+.follow{
+    margin-left: 50%;
+    margin-top: 50px;
+    background-color: rgb(215, 255, 54);
+    padding: 10px 18px 10px 18px;
+    border-radius: 44px;
+    height: 44px;
+    border-style: solid;
+}
+.social{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    column-gap: 45px;
+}
+.git{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.git-box p{
+    color: white;
+    margin-top: 0;
+}
+
+.ig{
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.ig-box p{
+    color: white;
+    margin-top: 0;
+    margin-left: -8px;
+}
+.link{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.link-box p{
+    color: white;
+    margin-top: 0;
+}
+
+.ftxt{
+    padding-top: 17px;
+    text-align: center;
+    color: white;
+}
+footer{
+    margin-top: 30px;
+    height: 66px;
+    width: 100%;
+    background-color: black;
+
+}

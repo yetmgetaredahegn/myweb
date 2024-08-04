@@ -1,0 +1,167 @@
+body{
+    background-image: url("../pic/bulb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.whole{
+    position: relative;
+}
+.upper{
+    display: grid;
+    grid-template-columns: 340px 1fr;
+}
+
+.yet{
+    display: inline-block;
+    font-size: 25px;
+    font-family: Beau Rivage;
+    color: white;
+    margin-left: 19px;
+ 
+}
+
+#port{
+    color: brown;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 62%;
+}
+
+.home-button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2em;
+    transition: color 1s;
+
+}
+
+.home-button:hover{
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    cursor: pointer;
+
+}
+.services-button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2em;
+    margin-left: 22px;
+    margin-right: 22px;
+    transition: color 1s;
+
+}
+
+.services-button:hover{
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    cursor: pointer;
+
+}
+
+.services-button:active{
+    background-color: white;
+    opacity: 0.9px;
+}
+
+.about-button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2em;
+    transition: color 1s;
+}
+
+.about-button:hover{
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.define{
+    margin-left: 35%;
+    width: 30%;
+    padding-top: 87px;
+
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 350px; 
+    border-style: solid;
+    border-color: rgb(215, 208, 208);
+    border-width: 1px;
+    backdrop-filter: blur(10px);
+}
+
+.mypic {
+    margin-top: 9px;
+    margin-left: 6px;
+    height: 78px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: rgb(215, 208, 208);
+    border-width: 1px;
+    vertical-align: center;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.3);
+  
+}
+
+.txt{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 3px 4px black;}
+
+.spname{
+color: rgb(255, 153, 0)
+}
+
+.more{
+    backdrop-filter: blur(10px);
+    color: rgb(215, 215, 215);
+    border: none;
+    font-size: 18px;
+    background: none;
+    text-shadow: 2px 1px 4px rgba(0,0, 0, 1);
+    font-weight: bold;
+}
+
+.more:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ftxt{
+    padding-top: 17px;
+    text-align: center;
+    color: white;
+}
+footer{
+    margin-top: 90%;
+    height: 66px;
+    width: 100%;
+    background-color: black;
+}
+
+
+
